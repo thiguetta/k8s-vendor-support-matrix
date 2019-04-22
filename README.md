@@ -5,7 +5,7 @@
 | *IKS*        | Deprecated                 | 1.11.9            | 1.12.7   | 1.13.5   | X              | X        |
 | *RKE*        | Any                        | Any               | Any      | Any      | Experimental   | X        |
 | *EKS*        | 1.10.3, 1.10.11, 1.10.13   | 1.11.5, 1.11.8    | 1.12.6   | X        | X              | X        |
-| *KOPS*       | Any                        | Any               | Any      | X        | X              | X        |
+| *KOPS*       | Any                        | Any               | Beta     | Alpha    | X              | X        |
 
 ## References
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
