@@ -1,11 +1,13 @@
 # Kubernetes Supported Version Matrix
-| *Kubernetes* | *1.10.x*                   | *1.11.x*          | *1.12.x* | *1.13.x* | *1.14.x*       | *1.15.x* |
-|--------------|----------------------------|-------------------|----------|----------|----------------|----------|
-| *GKE*        | 1.10.12                    | 1.11.8            | 1.12.6   | 1.13.4   | X              | X        |
-| *IKS*        | Deprecated                 | 1.11.9            | 1.12.7   | 1.13.5   | X              | X        |
-| *RKE*        | Any                        | Any               | Any      | Any      | Experimental   | X        |
-| *EKS*        | 1.10.3, 1.10.11, 1.10.13   | 1.11.5, 1.11.8    | 1.12.6   | X        | X              | X        |
-| *KOPS*       | Any                        | Any               | Beta     | Alpha    | X              | X        |
+| *Kubernetes* | *1.10.x*    | *1.11.x*    | *1.12.x*    | *1.13.x*   | *1.14.x* | *1.15.x* | *1.16.x* | *1.17.x* |
+|--------------|-------------|-------------|-------------|------------|----------|----------|----------|----------|
+| *GKE*        | Unsupported | Unsupported | Unsupported | 1.13.12    | 1.14.10  | 1.15.7   | 1.16.0   | X        |
+| *IKS*        | Unsupported | Unsupported | Unsupported | Deprecated | 1.14.9   | 1.15.6   | 1.16.3   | X        |
+| *RKE*        | Any*        | Any*        | Any*        | Any*       | 1.14.9   | 1.15.6   | 1.16.3   | X        |
+| *EKS*        | Unsupported | 1.11.10     | 1.12.10     | 1.13.12    | 1.14.9   | X        | X        | X        |
+| *KOPS*       | Deprecated  | Deprecated  | 1.12.x      | 1.13.x     | 1.14.x   | 1.15.x   | X        | X        |
+
+> RKE versions based on the lastes release, for older versions you need to use specific release
 
 ## References
 *GKE* - [https://cloud.google.com/kubernetes-engine/docs/release-notes](https://cloud.google.com/kubernetes-engine/docs/release-notes)
