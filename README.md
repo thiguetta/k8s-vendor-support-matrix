@@ -5,7 +5,7 @@
 | *IKS*        | Unsupported | Unsupported | Unsupported | Deprecated | 1.14.9   | 1.15.6   | 1.16.3   | X        |
 | *RKE*        | Any*        | Any*        | Any*        | Any*       | 1.14.9   | 1.15.6   | 1.16.3   | X        |
 | *EKS*        | Unsupported | 1.11.10     | 1.12.10     | 1.13.12    | 1.14.9   | X        | X        | X        |
-| *KOPS*       | Deprecated  | Deprecated  | 1.12.x      | 1.13.x     | 1.14.x   | 1.15.x   | X        | X        |
+| *KOPS*       | Unsupported | Deprecated  | Deprecated  | 1.13.x     | 1.14.x   | 1.15.x   | X        | X        |
 
 > RKE versions based on the lastes release, for older versions you need to use specific release
 
