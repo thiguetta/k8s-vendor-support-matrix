@@ -1,11 +1,11 @@
 # Kubernetes Supported Version Matrix
-| *Kubernetes* | *1.10.x*    | *1.11.x*    | *1.12.x*    | *1.13.x*    | *1.14.x*   | *1.15.x* | *1.16.x* | *1.17.x* | *1.18.x* |
-|--------------|-------------|-------------|-------------|-------------|------------|----------|----------|----------|----------|
-| *GKE*        | Unsupported | Unsupported | Unsupported | 1.13.12     | 1.14.10    | 1.15.9   | 1.16.8   | preview  | X        |
-| *IKS*        | Unsupported | Unsupported | Unsupported | Unsupported | Deprecated | 1.15.11  | 1.16.8   | 1.17.4   | X        |
-| *RKE*        | Any*        | Any*        | Any*        | Any*        | 1.14.9     | 1.15.11  | 1.16.8   | 1.17.4   | X        |
-| *EKS*        | Unsupported | Unsupported | 1.12.10     | 1.13.12     | 1.14.9     | 1.15.10  | X        | X        | X        |
-| *KOPS*       | Unsupported | Unsupported | Deprecated  | Deprecated  | 1.14.x     | 1.15.x   | 1.16.x   | X        | X        |
+| *Kubernetes* | *1.11.x*    | *1.12.x*    | *1.13.x*    | *1.14.x*   | *1.15.x* | *1.16.x* | *1.17.x* | *1.18.x* |
+|--------------|-------------|-------------|-------------|------------|----------|----------|----------|----------|
+| *GKE*        | Unsupported | Unsupported | 1.13.12     | 1.14.10    | 1.15.9   | 1.16.8   | preview  | X        |
+| *IKS*        | Unsupported | Unsupported | Unsupported | Deprecated | 1.15.11  | 1.16.8   | 1.17.4   | X        |
+| *RKE*        | Any*        | Any*        | Any*        | 1.14.9     | 1.15.11  | 1.16.8   | 1.17.4   | X        |
+| *EKS*        | Unsupported | 1.12.10     | 1.13.12     | 1.14.9     | 1.15.10  | X        | X        | X        |
+| *KOPS*       | Unsupported | Deprecated  | Deprecated  | 1.14.x     | 1.15.x   | 1.16.x   | X        | X        |
 
 > RKE versions based on the lastes release, for older versions you need to use specific release
 
